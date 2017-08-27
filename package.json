@@ -4,6 +4,7 @@
   "description": "IATA NDC-compliant API wrapper",
   "main": "index.js",
   "scripts": {
+	"start": "node app.js",
     "test": "jshint && mocha"
   },
   "repository": {
