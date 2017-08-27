@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "currencyCode": "USD",
+  "countryCode": "US",
+  "cityCode": "NYC",
+  "providerName": "IATA NDC GATEWAY",
+  "endpoint": "http://iata.api.mashery.com/kronos/api",
+  "APIAuthKey": "33ku2yvqrrqu2smm2tr9y8jp",
+  "agent": {
+    "IATANumber": "0000XXXX",
+    "name": "IATA Developer",
+    "id": "developer.test",
+    "type": "Hackathon Agent",
+    "email": "me@my.domain.com"
+  },
+  "sender": {
+    "id": "9A",
+    "name": "Kronos Air",
+    "type": "Airline Agent",
+    "email": "test@example.org",
+    "IATANumber": "98417900"
+  },
+  "airline": {
+      "id": "C9",
+      "name": "Kronos Airways"
+  }
+}
