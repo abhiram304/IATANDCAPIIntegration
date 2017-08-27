@@ -70,7 +70,7 @@ var reqData = {
 };
 
 // Direct request
-ndc.request('AirShopping', reqData, function (err, response) {
+ndc.request('FlightPrice', reqData, function (err, response) {
     console.log(response);
 });
 
