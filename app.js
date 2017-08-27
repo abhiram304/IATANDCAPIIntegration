@@ -75,7 +75,7 @@ ndc.request('FlightPrice', reqData, function (err, response) {
 });
 
 //Or if you need to work with message body:
-var message = ndc.messages.AirShopping(reqData);
+var message = ndc.messages.FlightPrice(reqData);
 
 // print JSON message.
 console.log(message.toJSON());
